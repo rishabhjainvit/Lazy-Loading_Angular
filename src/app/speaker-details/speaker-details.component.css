@@ -1,0 +1,46 @@
+#speaker-details-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    padding: 3rem;
+    border-radius: 10%;
+  }
+
+.speaker-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2 rem;
+
+}
+.speaker-details h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #007bff;
+}
+.speaker-details p {
+    font-size: 1.2rem;
+    color: #007bff;
+
+}
+.speaker-details button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.speaker-details button:hover {
+    background-color: #0056b3;
+
+}
+.speaker-details bitton:active {
+    background-color: #0056b3;
+    transform: scale(0.98);
+}
